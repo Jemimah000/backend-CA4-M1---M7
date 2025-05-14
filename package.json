@@ -1,0 +1,32 @@
+{
+  "name": "backend_ca4_m1-m7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jemimah000/backend-CA4-M1---M7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jemimah000/backend-CA4-M1---M7/issues"
+  },
+  "homepage": "https://github.com/Jemimah000/backend-CA4-M1---M7#readme",
+  "devDependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
+    "nodemon": "^3.1.10"
+  }
+}
